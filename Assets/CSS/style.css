@@ -1,0 +1,61 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.subtitulo {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color: #ccc;
+    color: black;
+
+
+}
+
+.entrada-sorteio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 3rem;
+    height: 15rem;
+}
+
+.entrada-sorteio p {
+    margin: 0.75rem;
+
+    font-size: 1.5rem;
+}
+
+.entrada-sorteio input {
+    font-size: 1.5rem;
+}
+
+.entrada-sorteio button {
+    margin-top: 2rem;
+    width: 10rem;
+    height: 2rem;
+    background-color: #42e465;
+
+    border-radius: 3rem;
+    border: 1px solid black;
+}
+
+.resultado-sorteio {
+    display: flex;
+    justify-content: center;
+
+    font-size: 3.5rem;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/CSS/style.css">
+
+
+    <title>Sorteio Online</title>
+</head>
+<header>
+    <div>
+        <h1 class="titulo">Sorteio Online</h1>
+    </div>
+    <div>
+        <h2 class="subtitulo">Digite os valores e aperto no botão para iniciar!</h2>
+    </div>
+</header>
+
+<body>
+    <div class="entrada-sorteio">
+        <p>Número entre:</p>
+        <input type="number" name="minimo" id="min">
+        <p>e:</p>
+        <input type="number" name="maximo" id="max">
+        <button onclick="sorteio()">Sortear</button>
+    </div>
+
+    <div class="resultado-sorteio">
+        <h2 id="resultado"></h2>
+    </div>
+</body>
+
+<footer>
+
+    <div class="texto-footer">
+        <p>Feito por: &copy; Felipe César!</p>
+    </div>
+
+</footer>
+
+<script src="Assets/Js/script.js"></script>
+
+</html>
